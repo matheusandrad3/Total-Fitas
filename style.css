@@ -102,3 +102,16 @@ body{
 .product .p-details h3{
     font-size: 15px;
 }
+
+
+@media screen and (max-width:480px){
+
+    body{
+        overflow: hidden;
+    }
+    .container{
+        width: 90%;
+        height: 90%;
+    }
+
+}
