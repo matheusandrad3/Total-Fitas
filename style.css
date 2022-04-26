@@ -35,8 +35,8 @@ header h1{
     font-family: 'Ubuntu';
     font-weight: 700;
     background: #134E5E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         -webkit-background-clip: text;
         -moz-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -138,7 +138,18 @@ background: linear-gradient(to top, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Fir
 @media screen and (max-width:768px){
 
     body{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
         overflow: hidden;
+
+    }
+    header{
+        margin-top: 10px;
+    }
+
+    header h1{
+        font-size: 30px;
     }
     .container{
         width: 90%;
